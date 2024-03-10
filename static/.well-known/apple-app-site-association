@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "N58366S34E.com.hvn.facemask",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
