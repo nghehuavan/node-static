@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Glamo Smart Management System</title>
-  <meta name='viewport' content='width=device-width,user-scalable=no' />
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <script type="text/javascript" src="vendors/amazon-chime-sdk.min.js"></script>
-  <script type="text/javascript" src="vendors/dexie.min.js"></script>
-<link href="css/app-2e241374921c28ee51e2.css" rel="stylesheet"></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Push Notifications using Node.js and Web Push</title>
+    <link rel="icon" type="image/png" href="https://d2cy1obokpvee9.cloudfront.net/manifest/favicon-196x196.png" sizes="196x196" class="next-head">
+</head>
 
 <body>
-  <div id="app"></div>
-<script type="text/javascript" src="js/app-2e241374921c28ee51e2.js"></script></body>
+    <header>
+        <h1>Web Push Notifications With AWS-Chime Video Call Demo</h1>
+    </header>
+
+    <div class="buttons">
+        <div>
+            <input type="text" id="json-url" value="https://glamo.wiremockapi.cloud/meeting" />
+            <button id="trigger-get-hotline" class="trigger-push">Json HotLine</button>
+            <button id="trigger-get-sercurity" class="trigger-push">Json Sercurity</button>
+            <button id="trigger-subscription" class="trigger-push">Subscription Push Notification</button>
+            <br />
+            <label>data json for push</label>
+            <br />
+            <textarea id="json-push-data" cols="100" , rows="20"></textarea>
+            <br />
+            <label>json subscribed (if not input => use SqliteDb in server node.js)</label>
+            <br />
+            <textarea id="json-push-subscribe" cols="100" , rows="4"></textarea>
+            <br />
+            <button id="trigger-push" class="trigger-push">Push Notification</button>
+        </div>
+    </div>
+</body>
 
 </html>

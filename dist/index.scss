@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33154f;
+  color: #11d771;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  text-align: center;
+  .text {
+    font-size: 10;
+  }
+}
+
+button {
+  padding: 0 8px;
+  text-align: center;
+}
