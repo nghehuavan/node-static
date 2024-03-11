@@ -2,18 +2,20 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>RESFA | Layout</title>
   <!-- Tell the browser to be responsive to screen width -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />
   <!-- Theme style -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css" />
   <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="site.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css" />
 </head>
 
 <body class="sidebar-mini layout-fixed">
@@ -37,14 +39,10 @@
           <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
             <i class="fa fa-user"></i>
           </a>
-          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
-            <a href="javascript:void(0);" class="dropdown-item">
-              <i class="far fa-building mr-2"></i>株式会社
-            </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px">
+            <a href="javascript:void(0);" class="dropdown-item"> <i class="far fa-building mr-2"></i>株式会社 </a>
             <div class="dropdown-divider"></div>
-            <a href="#user_info" class="dropdown-item">
-              <i class="fa fa-user mr-2 ml-3"></i>本社／レックアイ　太郎
-            </a>
+            <a href="#user_info" class="dropdown-item"> <i class="fa fa-user mr-2 ml-3"></i>本社／レックアイ　太郎 </a>
             <div class="dropdown-divider"></div>
             <a href="#sign_out" class="nav-link"><i class="fa fa-sign-out-alt mr-1 ml-3"></i>ログアウト</a>
           </div>
@@ -54,7 +52,7 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-light-primary  elevation-1">
+    <aside class="main-sidebar sidebar-light-primary elevation-1">
       <!-- Brand Logo -->
       <a href="/" class="brand-link">
         <img src="resfa_logo.png" />
@@ -110,7 +108,7 @@
             <div class="col-12">
               <!-- Default box -->
               <div class="card">
-                <div class="card-header card-header-base">
+                <div class="card-header">
                   <h3 class="card-title ml-0">
                     <div class="card-tools">
                       <button type="Button" data-card-widget="collapse" class="btn btn-tool"><i class="fa fa-minus"></i></button>
@@ -119,16 +117,13 @@
                   </h3>
                   <div class="card-tools">
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-                      <i class="fas fa-minus"></i></button>
+                      <i class="fas fa-minus"></i>
+                    </button>
                   </div>
                 </div>
-                <div class="card-body card-body-base">
-                  Content
-                </div>
+                <div class="card-body">Card Content</div>
                 <!-- /.card-body -->
-                <div class="card-footer">
-                  Footer
-                </div>
+                <div class="card-footer">Card Footer</div>
                 <!-- /.card-footer-->
               </div>
               <!-- /.card -->
@@ -136,6 +131,7 @@
           </div>
         </div>
       </section>
+
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
