@@ -50,3 +50,43 @@
   --font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+body {
+  font-family: 'メイリオ', 'meiryo', 'ＭＳ Ｐゴシック', 'MS P Gothic', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Helvetica', 'sans-serif';
+  font-size: 14px;
+}
+
+/*[BEGIN]: ==============AdminLTE============*/
+.nav-link {
+  display: block;
+  padding: 0.3rem 0.6rem;
+}
+
+.brand-link {
+  padding: 0.32rem 0.5rem;
+}
+
+.main-header .nav-link {
+  height: 2rem;
+  position: relative;
+}
+
+.content-wrapper {
+  margin-top: 50px;
+  min-height: 354px;
+  background: #fff;
+}
+
+.card-header {
+  padding: 0.25rem 0.25rem !important;
+}
+
+.card-body {
+  padding: 0.25rem 0.25rem !important;
+}
+
+.card-footer {
+  padding: 0.25rem 0.25rem !important;
+}
+
+/*[END]: ==============AdminLTE============*/
