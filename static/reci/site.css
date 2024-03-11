@@ -57,11 +57,6 @@ body {
 }
 
 /*[BEGIN]: ==============AdminLTE============*/
-.nav-link {
-  display: block;
-  padding: 0.3rem 0.6rem;
-}
-
 .brand-link {
   padding: 0.32rem 0.5rem;
 }
