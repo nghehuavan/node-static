@@ -45,7 +45,7 @@
   --header-gray: #d8d8d8;
   --header-blue: #aecbf8;
   --header-green: #a5e3d6;
-  --header-organ: #fbc385;
+  --header-orange: #fbc385;
 
   --font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -85,6 +85,42 @@ nav.main-header {
 
 .card-menu .nav-tabs {
   border-bottom: 0px;
+}
+
+.card-blue:not(.card-outline)>.card-header,
+.card-primary:not(.card-outline)>.card-header a {
+  color: #fff;
+}
+
+.card-blue:not(.card-outline)>.card-header {
+  background-color: var(--header-blue);
+}
+
+.card-green:not(.card-outline)>.card-header,
+.card-primary:not(.card-outline)>.card-header a {
+  color: #fff;
+}
+
+.card-green:not(.card-outline)>.card-header {
+  background-color: var(--header-green);
+}
+
+.card-orange:not(.card-outline)>.card-header,
+.card-primary:not(.card-outline)>.card-header a {
+  color: #fff;
+}
+
+.card-orange:not(.card-outline)>.card-header {
+  background-color: var(--header-orange);
+}
+
+.card-gray:not(.card-outline)>.card-header,
+.card-primary:not(.card-outline)>.card-header a {
+  color: #fff;
+}
+
+.card-gray:not(.card-outline)>.card-header {
+  background-color: var(--header-gray);
 }
 
 /*[END]: ==============AdminLTE============*/
