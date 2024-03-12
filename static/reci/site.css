@@ -66,9 +66,8 @@ nav.main-header {
 }
 
 .content-wrapper {
-  background: #fff;
+  background: var(--white);
   padding-top: 0.5rem;
 }
-
 
 /*[END]: ==============AdminLTE============*/
