@@ -62,6 +62,13 @@ body {
   padding: 6px;
 }
 
+.btn-primary-dark {
+  color: #fff;
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  box-shadow: none;
+}
+
 .dropdown-menu {
   font-size: 14px;
 }
