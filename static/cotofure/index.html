@@ -48,7 +48,7 @@
             </div>
             <input type="text" class="form-control" value="https://node-static.cyclic.app/upload" id="url" onchange="initDropZone();" />
             <span class="input-group-append">
-              <button type="button" class="btn btn-info btn-flat" onclick="initDropZone();">Apply</button>
+              <button type="button" class="btn btn-info btn-flat" onclick="jsonSample();">Sample</button>
             </span>
           </div>
         </li>
@@ -160,6 +160,39 @@
     $(document).ready(function () {
       initDropZone()
     });
+
+    function jsonSample() {
+      let json = {
+        id: '155baaa9-7646-4012-8031-3a53a40434e3',
+        name: 'test.jpg',
+        time: 1666686753,
+        items: [
+          {
+            amount: 120,
+            quantity: 10,
+          },
+          {
+            amount: 100,
+            quantity: 2,
+          },
+        ],
+        loss: 2,
+        total: 1400,
+        image: '[base64String]',
+        csv: '[base64String]',
+      };
+      var panelSample = jsPanel.create({
+        theme: "info",
+        headerTitle: "Sample",
+        panelSize: '500 500',
+        content: '<div id="json"></div>',
+        position: 'center-top',
+        callback: function () {
+          var wrapper = document.getElementById("json")
+          var tree = jsonTree.create(json, wrapper);
+        }
+      });
+    }
 
   </script>
 </body>
